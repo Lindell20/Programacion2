@@ -12,7 +12,7 @@ package intro;
 public class Alumno {
     //Atributos
     private String nombre;
-    
+    private double promedio;
     //Constructor
     public Alumno(String nombre){
         this.nombre = nombre;
@@ -23,8 +23,8 @@ public class Alumno {
         return nombre;
     }
     
-    public setNombre(){
-        
+    public void setNombre(String nombre){
+        this.nombre = nombre;
             }
     
     public void print(){
